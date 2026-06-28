@@ -368,11 +368,10 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;heigh
     <h2 class="cidade-title">Qual é a sua cidade?</h2>
     <p class="cidade-sub">Escolha a cidade do evento para gerar o seu card.</p>
     <div id="cidade-opts">
-      <button class="cidade-opt" onclick="selecionarCidade('londrina',this)">📍 Londrina</button>
-      <button class="cidade-opt" onclick="selecionarCidade('platina',this)">📍 Santo Antônio da Platina</button>
-      <button class="cidade-opt" onclick="selecionarCidade('cornelio',this)">📍 Cornélio Procópio</button>
-      <button class="cidade-opt" onclick="selecionarCidade('arapongas',this)">📍 Arapongas</button>
-      <button class="cidade-opt" onclick="selecionarCidade('apucarana',this)">📍 Apucarana</button>
+      <button class="cidade-opt" onclick="selecionarCidade('telemaco',this)">📍 Telêmaco Borba</button>
+      <button class="cidade-opt" onclick="selecionarCidade('guarapuava',this)">📍 Guarapuava</button>
+      <button class="cidade-opt" onclick="selecionarCidade('uniao',this)">📍 União da Vitória</button>
+      <button class="cidade-opt" onclick="selecionarCidade('pontagrossa',this)">📍 Ponta Grossa</button>
     </div>
   </div>
   <button class="btn-primary" id="btn-gerar-card" onclick="gerarCard()" disabled style="opacity:.4">Gerar meu card →</button>
@@ -409,11 +408,10 @@ var SONHOS = {
 };
 
 var CIDADES = {
-  londrina:  { label: 'Londrina',                  img: 'https://raw.githubusercontent.com/eduardohf-crypto/Fundoca-Jornada-Norte/main/Card_Fundoca_Londrina.jpg' },
-  platina:   { label: 'Santo Antônio da Platina',  img: 'https://raw.githubusercontent.com/eduardohf-crypto/Fundoca-Jornada-Norte/main/Card_Fundoca_Santo_Ant%C3%B4nio_da_Platina.jpg' },
-  cornelio:  { label: 'Cornélio Procópio',         img: 'https://raw.githubusercontent.com/eduardohf-crypto/Fundoca-Jornada-Norte/main/Card_Fundoca_Corn%C3%A9lio_Proc%C3%B3pio.jpg' },
-  arapongas: { label: 'Arapongas',                 img: 'https://raw.githubusercontent.com/eduardohf-crypto/Fundoca-Jornada-Norte/main/Card_Fundoca_Arapongas.jpg' },
-  apucarana: { label: 'Apucarana',                 img: 'https://raw.githubusercontent.com/eduardohf-crypto/Fundoca-Jornada-Norte/main/Card_Fundoca_Apucarana.jpg' }
+  telemaco: { label: 'Telêmaco Borba',    img: 'https://raw.githubusercontent.com/eduardohf-crypto/Ativos-regional-Noroeste/main/Card_Fundoca_Tel%C3%AAmaco_Borba.jpg' },
+  guarapuava:{ label: 'Guarapuava',       img: 'https://raw.githubusercontent.com/eduardohf-crypto/Ativos-regional-Noroeste/main/Card_Fundoca_Guarapuava.jpg' },
+  uniao:    { label: 'União da Vitória',  img: 'https://raw.githubusercontent.com/eduardohf-crypto/Ativos-regional-Noroeste/main/Card_Fundoca_Uni%C3%A3o_da_Vit%C3%B3ria.jpg' },
+  pontagrossa:{ label: 'Ponta Grossa',    img: 'https://raw.githubusercontent.com/eduardohf-crypto/Ativos-regional-Noroeste/main/Card_Fundoca_Ponta_Grossa.jpg' }
 };
 
 var CIDADE_SELECIONADA = null;
